@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\User\Documents\Gustavo\Proyecto_1\Proyecto_1.kicad_sch</source>
+    <date>22/12/2022 12:34:14 p. m.</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Test</title>
+        <company>ElectronicCats</company>
+        <rev>V1.0</rev>
+        <date>2022-12-19</date>
+        <source>Proyecto_1.kicad_sch</source>
+        <comment number="1" value="Gustavo Ornelas"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>.01uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f19d89b7-d888-494f-a2c7-fa57cfd3c1ac</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P2.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>587b7b81-e4eb-411e-bae5-3cb5423efd6c</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED 3.3v</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d99b942-52c5-43f3-8f56-2ca9b6fa4701</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d521820d-c075-45a5-a3fc-2ad6dbda6053</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED 5v</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6f9403b-0975-4a34-8494-31c967ac99db</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Voltajes</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36137541-e756-443b-8aba-6d6c84f38b12</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4b82abf-0280-4f34-b093-f123f90a7ef2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f7ec9f6-442b-4cb7-bbab-470f24e960ff</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8393fd4d-4837-4498-acf7-99a5e1f6ae66</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>677b33ab-2f63-4834-85e5-bbf5326d50ea</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eceebc39-c07d-44e9-b303-6d4f118491ff</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c18edcbd-6f82-4c5f-87bc-622089c09f80</tstamps>
+    </comp>
+    <comp ref="TRI1">
+      <value>BTA41-600BRG</value>
+      <footprint>digikey-footprints:TOP-3_Vertical_Insulated</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/bc/c6/38/ee/88/59/49/0d/CD00002263.pdf/files/CD00002263.pdf/jcr:content/translations/en.CD00002263.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/bc/c6/38/ee/88/59/49/0d/CD00002263.pdf/files/CD00002263.pdf/jcr:content/translations/en.CD00002263.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/BTA41-600BRG/497-2431-5-ND/603456</field>
+        <field name="Description">TRIAC 600V 40A TOP3</field>
+        <field name="Digi-Key_PN">497-2431-5-ND</field>
+        <field name="Family">Thyristors - TRIACs</field>
+        <field name="MPN">BTA41-600BRG</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Thyristors-TRIACs" part="BTA41-600BRG" description="TRIAC 600V 40A TOP3"/>
+      <property name="Digi-Key_PN" value="497-2431-5-ND"/>
+      <property name="MPN" value="BTA41-600BRG"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Thyristors - TRIACs"/>
+      <property name="DK_Datasheet_Link" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/bc/c6/38/ee/88/59/49/0d/CD00002263.pdf/files/CD00002263.pdf/jcr:content/translations/en.CD00002263.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/stmicroelectronics/BTA41-600BRG/497-2431-5-ND/603456"/>
+      <property name="Description" value="TRIAC 600V 40A TOP3"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7998168-2b1a-4ae7-8f0f-43ef9a53a73f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM555xM</value>
+      <footprint>Package_DIP:DIP-8_W10.16mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm555.pdf</datasheet>
+      <libsource lib="Timer" part="LM555xM" description="Timer, 555 compatible, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aaef6a3-2195-4dce-b6a5-c0cddf2a1260</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>PIC16F18424</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/268/PIC16_L_F18424_44_Microcontroller_Data_Sheet_DS400-3044375.pdf</datasheet>
+      <fields>
+        <field name="Manuf°">PIC16F18424-I/SL</field>
+      </fields>
+      <libsource lib="Proyecto_1" part="PIC16F18424" description=""/>
+      <property name="Manuf°" value="PIC16F18424-I/SL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Proyecto_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8563f221-5859-424b-bb05-c17fba4e64d5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Proyecto_1" part="PIC16F18424">
+      <docs>https://www.mouser.mx/datasheet/2/268/PIC16_L_F18424_44_Microcontroller_Data_Sheet_DS400-3044375.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC16F18424</field>
+        <field name="Footprint">Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</field>
+        <field name="Datasheet">https://www.mouser.mx/datasheet/2/268/PIC16_L_F18424_44_Microcontroller_Data_Sheet_DS400-3044375.pdf</field>
+        <field name="Manuf°">PIC16F18424-I/SL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="RA5" type="input"/>
+        <pin num="3" name="RA4" type="input"/>
+        <pin num="4" name="MCLR" type="input"/>
+        <pin num="5" name="RC5" type="input"/>
+        <pin num="6" name="RC4" type="input"/>
+        <pin num="7" name="RC3" type="input"/>
+        <pin num="8" name="RC2" type="input"/>
+        <pin num="9" name="RC1" type="input"/>
+        <pin num="10" name="RC0" type="input"/>
+        <pin num="11" name="RA2" type="input"/>
+        <pin num="12" name="RA1" type="input"/>
+        <pin num="13" name="RA0" type="input"/>
+        <pin num="14" name="VSS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="LM555xM">
+      <description>Timer, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555xM</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Thyristors-TRIACs" part="BTA41-600BRG">
+      <description>TRIAC 600V 40A TOP3</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/bc/c6/38/ee/88/59/49/0d/CD00002263.pdf/files/CD00002263.pdf/jcr:content/translations/en.CD00002263.pdf</docs>
+      <fields>
+        <field name="Reference">TRI</field>
+        <field name="Value">BTA41-600BRG</field>
+        <field name="Footprint">digikey-footprints:TOP-3_Vertical_Insulated</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/bc/c6/38/ee/88/59/49/0d/CD00002263.pdf/files/CD00002263.pdf/jcr:content/translations/en.CD00002263.pdf</field>
+        <field name="Digi-Key_PN">497-2431-5-ND</field>
+        <field name="MPN">BTA41-600BRG</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Thyristors - TRIACs</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/bc/c6/38/ee/88/59/49/0d/CD00002263.pdf/files/CD00002263.pdf/jcr:content/translations/en.CD00002263.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/BTA41-600BRG/497-2431-5-ND/603456</field>
+        <field name="Description">TRIAC 600V 40A TOP3</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Proyecto_1">
+      <uri>C:\Users\User\Documents\Gustavo\Proyecto_1/Proyecto_1.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Timer.kicad_sym</uri>
+    </library>
+    <library logical="dk_Thyristors-TRIACs">
+      <uri>C:\Users\User\Downloads\digikey-kicad-library-master\digikey-kicad-library-master\digikey-symbols\dk_Thyristors-TRIACs.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="/OUT">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="GNDA">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="12" name="unconnected-(TRI1-Pad1)">
+      <node ref="TRI1" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(TRI1-Pad2)">
+      <node ref="TRI1" pin="2" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(TRI1-Pad3)">
+      <node ref="TRI1" pin="3" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="15" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="RA5" pintype="input"/>
+    </net>
+    <net code="17" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="RA4" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="MCLR" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="RC5" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="RC4" pintype="input"/>
+    </net>
+    <net code="21" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="RC3" pintype="input"/>
+    </net>
+    <net code="22" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="RC2" pintype="input"/>
+    </net>
+    <net code="23" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="RC1" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="RC0" pintype="input"/>
+    </net>
+    <net code="25" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="RA2" pintype="input"/>
+    </net>
+    <net code="26" name="unconnected-(U2-Pad12)">
+      <node ref="U2" pin="12" pinfunction="RA1" pintype="input"/>
+    </net>
+    <net code="27" name="unconnected-(U2-Pad13)">
+      <node ref="U2" pin="13" pinfunction="RA0" pintype="input"/>
+    </net>
+    <net code="28" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="VSS" pintype="input"/>
+    </net>
+  </nets>
+</export>
